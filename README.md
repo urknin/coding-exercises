@@ -15,6 +15,10 @@ Submission Instructions
 2. When you're done, use `git bundle` to bundle up the repo and send it back to
 `jongmyung@stayntouch.com`.
 
+Environment
+-----------
+
+Ruby 2.5.x, Rspec, Bundler, RabbitMQ
 
 Exercises
 =========
@@ -54,8 +58,12 @@ Tests have been pre-written using rspec in `/spec/hotel_parser_spec.rb`.
 RabbitMQ PubSub
 ---------------
 
-Implement a method that simple PubSub model using RabbitMQ and Bunny gem
-message publishes to queue and subscribe it from queue and return the value as expected from rspec
+Implement a method that will be the PubSub model using RabbitMQ and Bunny gem.
+
+Your method should publish guest to the queue, and subscribe from queue.
+
+And subscriber should generate and return the message as expected from the test. 
+
 (https://www.rabbitmq.com/getstarted.html, http://rubybunny.info/articles/getting_started.html)
 
 Tests have been pre-written using rspec in `/spec/rabbitmq_spec.rb`.
