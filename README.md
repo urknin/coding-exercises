@@ -38,8 +38,8 @@ implementation in the calculate method.
 Hotel Parser
 ------------
 
-With the provided YAML file in `data/hotel.yaml`, build a parser that converts the file to an object. the file so that
-we can access it in Ruby.
+With the provided YAML file in `data/hotel.yaml`, implement the hotel parser in a way that parses the file and returns a collection of nested objects
+representing the data. You may use the standard YAML parser, but do not use OpenStruct. Bonus points for good OOP representation.
 
 The object should respond to the following requirements:
 
@@ -64,7 +64,8 @@ This exercise is to build a method that implement Publish/Subscribe model using 
 The test case will provide a guest name to your method. The method should subscribe to a queue, publish the provided guest to the queue, and then
 return a string with guest's name. (e.g.: "Received Name's Reservation")
 
-The test is pretty basic, but we are looking to see a working Pub/Sub implementation using RabbitMQ.
+We are looking to see a working Pub/Sub implementation using RabbitMQ. Avoid a common hangup, do not simply return string value to pass the test,
+ensure the value has been returned by the subscription block.
 
 (https://www.rabbitmq.com/getstarted.html, http://rubybunny.info/articles/getting_started.html)
 
