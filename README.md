@@ -56,17 +56,13 @@ The object should respond to the following requirements:
 Tests have been pre-written using rspec in `/spec/hotel_parser_spec.rb`. There is a parse method in the HotelParser class located in
 `code/hotel_parser.rb`.
 
-RabbitMQ Pub/Sub
+HTML Scraper
 ---------------
 
-This exercise is to build a method that implement Publish/Subscribe model using RabbitMQ (Messaging Service) and Bunny gem (RabbitMQ Client).
+This exercise is to build a HTML screen scraper. The scraper will read provided paws.html file, navigate pagination, and collect href source for all
+baby female dogs on each page.
 
-The test case will provide a guest name to your method. The method should subscribe to a queue, publish the provided guest to the queue, and then
-return a string with guest's name. (e.g.: "Received Name's Reservation")
+You will likely want to use an HTML parser like Nokogiri and use the page's pagination to iterate each page.
 
-We are looking to see a working Pub/Sub implementation using RabbitMQ. Avoid a common hangup, do not simply return string value to pass the test,
-ensure the value has been returned by the subscription block.
-
-(https://www.rabbitmq.com/getstarted.html, http://rubybunny.info/articles/getting_started.html)
-
-Tests have been pre-written using rspec in `/spec/rabbitmq_spec.rb`. There is a reservation_pub_sub method in Rabbitmq located in `code/rabbitmq.rb`
+One Test has been written using rspec in `/spec/puppies_spec.rb`. There is a parse method in the Puppies class located in
+`code/puppies.rb`. The paws.html file is provided in the data directory.
