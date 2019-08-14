@@ -2,7 +2,7 @@ StayNTouch Coding Exercises
 =============================
 
 As a candidate to our engineering team, we are offering the following exercises to allow you to showcase your development skills. The purpose of these
-exercises are for you to express yourself technically outside of the in-person interview. Take as much time as you would like, but it should only take
+exercises are for you to express yourself technically, outside of the in-person interview. Take as much time as you would like, but it should only take
 a few hours.
 
 Submission Instructions
@@ -10,7 +10,7 @@ Submission Instructions
 
 1. Complete the exercises as described below.
   - Commit each solution separately with a brief explanation of your
-    solution. Don not squash your commits.
+    solution. Do not squash your commits.
   - Your code should be clear and well-documented.
 2. When you are done, use `git bundle` to bundle up the repo and send it back to
 `jongmyung@stayntouch.com`.
@@ -62,7 +62,7 @@ HTML Scraper
 This exercise is to build a HTML screen scraper. The scraper will read provided paws.html file, navigate pagination, and collect href source for all
 baby female dogs on each page.
 
-You will likely want to use an HTML parser like Nokogiri and use the page's pagination to iterate each page.
+You will likely want to use an HTML parser like Nokogiri and use the listing pagination to iterate each page.
 
 One Test has been written using rspec in `/spec/puppies_spec.rb`. There is a parse method in the Puppies class located in
 `code/puppies.rb`. The paws.html file is provided in the data directory.
