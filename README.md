@@ -12,13 +12,13 @@ Submission Instructions
   - Commit each solution separately with a brief explanation of your
     solution. Do not squash your commits.
   - Your code should be clear and well-documented.
-2. When you are done, use `git bundle` to bundle up the repo and send it back to
-`jongmyung@stayntouch.com`.
+2. When you are done, use `git bundle` to bundle up the repo, compress it (zip/tar) and send it back to
+`jongmyung@stayntouch.com`. We sometimes receive corrupted bundles, so please verify your bundle.
 
 Environment
 -----------
 
-Ruby 2.5.x, Rspec, Bundler, RabbitMQ
+Ruby 2.5.x, Rspec, Bundler
 
 Exercises
 =========
