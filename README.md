@@ -13,7 +13,7 @@ Submission Instructions
     solution. Do not squash your commits.
   - Your code should be clear and well-documented.
 2. When you are done, use `git bundle` to bundle up the repo, compress it (zip/tar) and send it back to
-`jongmyung@stayntouch.com`. We sometimes receive corrupted bundles, so please verify your bundle.
+`jongmyung.ha@shijigroup.com` or `jason.lombardozzi@shijigroup.com`. We sometimes receive corrupted bundles, so please verify your bundle.
 
 Environment
 -----------
