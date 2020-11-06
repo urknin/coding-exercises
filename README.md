@@ -35,6 +35,15 @@ Implement a method that will calculate the Nth number of the Fibonacci sequence
 Tests have been pre-written using rspec at `/spec/fibonacci_spec.rb`. There is a Fibonacci class in `code/fibonacci.rb` the solution should be
 implementation in the calculate method.
 
+Magic Square
+------------------
+
+Implement a method that takes a 2D array, checks if it's a magic square and returns either `true` or `false` depending on the result.
+(https://en.wikipedia.org/wiki/Magic_square).
+
+Tests have been pre-written using rspec at `/spec/magic_square_spec.rb`. There is a MagicSquare class in `code/magic_square.rb` the solution should be
+implementation in the validate method.
+
 Hotel Parser
 ------------
 
