@@ -26,14 +26,6 @@ Exercises
 *Note: Feel free to use Google to look up syntax, method definitions, etc. but
 please don't just look up the answers.* Any files you add should be added to the lib directory and required within the relevant code exercise.
 
-Fibonacci Sequence
-------------------
-
-Implement a method that will calculate the Nth number of the Fibonacci sequence
-(http://en.wikipedia.org/wiki/Fibonacci_number).
-
-Tests have been pre-written using rspec at `/spec/fibonacci_spec.rb`. There is a Fibonacci class in `code/fibonacci.rb` the solution should be implementation in the `calculate` method.
-
 Magic Square
 ------------------
 
