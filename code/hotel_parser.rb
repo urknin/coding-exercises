@@ -2,6 +2,7 @@ require 'yaml'
 # This module provides a Ruby interface for data serialization in YAML format
 
 class HotelParser
+
   # Implement a method to parse the contents of a YAML file and return
   # an object whose values are accessible using the [] operator or method calls
   #
